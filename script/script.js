@@ -56,7 +56,7 @@ enviar.addEventListener("click", () => {
   const parrafo = document.createElement("p");
   // Le agregar el texto de respuestas para el usuaruio
   parrafo.innerHTML =
-    "Usted ha respondido correctamente " + contador + "respuestas";
+    "Usted ha respondido correctamente " + contador + " respuestas";
   // Agregar el parrafo al div
   divResultado.appendChild(parrafo);
   // Agrega al body el div
