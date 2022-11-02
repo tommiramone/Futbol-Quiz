@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+a {
+  color: white;
+}
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: FFD600;
+  font-family: "Inika", serif;
+}
+body .textoInicio {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  font-size: 3em;
+}
+body .divImagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+body .divImagen #messi {
+  width: 110%;
+}
+@media screen and (min-width: 960px) and (max-width: 1279px) {
+  body .divImagen #messi {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  body .divImagen #messi {
+    width: 40%;
+  }
+}
+body .divJugar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .divJugar .idJugar {
+  padding: 1em;
+  border: black solid 3px;
+  background-color: black;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+}
+body .divJugar .idJugar #textoJugar {
+  color: white;
+}
+body .textoJuego {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Inika", serif;
+  color: black;
+}
+body .pregunta {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  margin: 3% 7%;
+  border-radius: 0.5em;
+}
+body .pregunta #enunciado {
+  margin-bottom: 0.4em;
+  color: white;
+  font-family: "Inika", serif;
+}
+body .pregunta .formPregunta {
+  display: flex;
+  flex-flow: column;
+}
+body .pregunta #opcion {
+  padding: 0.2em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #resultado {
+  font-family: "Inika", serif;
+  text-align: center;
+  font-size: 2em;
+}
+body .reiniciar {
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 0.5em;
+  font-size: 1.3em;
+  color: white;
+}
+body .reiniciar #botonJugar {
+  color: white;
+}
+body #autor {
+  color: black;
+  font-family: "Inika", serif;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  margin: 1.5em;
+}/*# sourceMappingURL=style.css.map */
